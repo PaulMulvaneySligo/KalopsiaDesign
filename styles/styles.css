@@ -1,0 +1,52 @@
+header
+{
+    background-image: url(../images/placeholder_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: white;
+}
+
+header nav
+{
+    text-align: end;
+    bottom: 0px;
+}
+
+nav ul li
+{
+    color: white;
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+
+nav ul li a
+{
+    color: white;    
+    text-decoration: none;
+}
+
+main
+{
+    
+}
+
+main img
+{
+    border: 1px solid black;
+}
+footer
+{
+    background-color: black;
+    color: white;
+    text-align: end;
+    padding: 5px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+footer img
+{
+    border: 1px solid white;
+} 
