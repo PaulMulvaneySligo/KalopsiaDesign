@@ -1,9 +1,14 @@
+body
+{
+    font: less;
+}
+
 header
 {
     background-image: url(../images/placeholder_header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 300px;
     color: white;
 }
 
@@ -29,7 +34,8 @@ nav ul li a
 
 main
 {
-    
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 main img
@@ -41,12 +47,46 @@ footer
     background-color: black;
     color: white;
     text-align: end;
-    padding: 5px;
-    width: 100%;
-    position: fixed;
+    padding: 0px;
     bottom: 0px;
+    clear: both;
+    border: 1px solid;
+    padding: 0;
+    position: fixed;
+    margin: 0;
+    bottom: 0;
+    width: 100%;
 }
 footer img
 {
     border: 1px solid white;
-} 
+    margin: 3px;
+}
+
+
+table
+{
+    margin-top: 30px;
+    width: 100%;
+    border: 1px solid;
+    border-color: black;
+    background-color: black;
+}
+table thead
+{
+    color: white;
+    text-align: left;
+}
+table th tr
+{
+    border: 1px solid;
+    border-color: black;
+}
+table td
+{
+    border: 1px solid;
+    border-color: black;
+    height: 150px;
+    text-align: center;
+    width: 30%;
+}
