@@ -1,6 +1,6 @@
 body
 {
-    font: less;
+    font-family: less;
 }
 
 header
@@ -30,30 +30,52 @@ nav ul li a
 {
     color: white;    
     text-decoration: none;
+    font-family: less;
+    image-resolution:snap;
 }
 
-main
+#frontPage
 {
-    padding-left: 5%;
-    padding-right: 5%;
+    height: 300px;
 }
 
-main img
+
+.MainImage
 {
-    border: 1px solid black;
+    border: solid 1px black;
 }
+
+h1
+{
+    font-size: 1.4em;
+    padding-top: 22px;
+    padding-left: 80px;
+}
+
+h2
+{
+    font-family: lessregular;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section
+{
+    margin: auto;
+    max-width: 900px;
+    text-align: left;
+    padding-bottom: 1px;
+}
+
 footer
 {
     background-color: black;
     color: white;
     text-align: end;
-    padding: 0px;
     bottom: 0px;
     clear: both;
     border: 1px solid;
-    padding: 0;
-    position: fixed;
-    margin: 0;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
@@ -68,25 +90,75 @@ table
 {
     margin-top: 30px;
     width: 100%;
-    border: 1px solid;
-    border-color: black;
-    background-color: black;
+    background-color: lightgray;
+    margin-bottom: 20px;
 }
 table thead
 {
     color: white;
     text-align: left;
 }
-table th tr
-{
-    border: 1px solid;
-    border-color: black;
-}
+
 table td
 {
-    border: 1px solid;
-    border-color: black;
-    height: 150px;
+
     text-align: center;
-    width: 30%;
+}
+
+#price
+{
+    text-align: end;
+    font-size: 1.2em; 
+}
+
+.images
+{
+    margin: auto;
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+}
+
+#gallery
+{
+    max-width: 900px;
+    justify-content: center;
+    
+}
+
+#galleryTile
+{
+    float: left;
+    background-color: lightgray;
+    width: 420px;
+    height: 500px;
+    margin: 10px;
+}
+
+#galleryTile img
+{
+    margin: 10px;
+}
+
+#galleryTile p
+{
+    margin: 10px
+}
+
+@font-face {
+    font-family: 'lessregular';
+    src: url('less-webfont.woff') format('woff2'),
+         url('less-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lesslight';
+    src: url('less-light-webfont.woff2') format('woff2'),
+         url('less-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
