@@ -33,12 +33,19 @@ nav ul li a
     font-family: less;
     image-resolution:snap;
 }
+#active
+{
+    text-decoration: underline   
+}
 
 #frontPage
 {
     height: 300px;
 }
-
+#frontPage p 
+{
+    margin-left: 310px;
+}
 
 .MainImage
 {
