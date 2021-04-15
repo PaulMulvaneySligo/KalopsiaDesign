@@ -5,7 +5,7 @@ body
 
 header
 {
-    background-image: url(../images/placeholder_header.jpg);
+    background-image: url(../images/Header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
@@ -18,7 +18,7 @@ header nav
     bottom: 0px;
 }
 
-nav ul li
+header nav ul li
 {
     color: white;
     list-style-type: none;
@@ -31,11 +31,10 @@ nav ul li a
     color: white;    
     text-decoration: none;
     font-family: less;
-    image-resolution:snap;
 }
 #active
 {
-    text-decoration: underline   
+    text-decoration: underline;   
 }
 
 #frontPage
@@ -92,6 +91,17 @@ footer img
     margin: 3px;
 }
 
+footer nav
+{
+    text-align: center;
+}
+
+footer nav ul li
+{
+    color: white;
+    list-style-type: none;
+    display: inline;
+}
 
 table
 {
@@ -116,6 +126,7 @@ table td
 {
     text-align: end;
     font-size: 1.2em; 
+    font-weight: bold;
 }
 
 .images
@@ -150,6 +161,31 @@ table td
 #galleryTile p
 {
     margin: 10px
+}
+
+form
+{
+    text-align: center;
+    justify-content: center;
+}
+
+input
+{
+    border: solid white 1px;
+    border-bottom: solid black 1px;
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+#submit
+{
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    font-family: less;
+    border: solid black 1px;
+    background-color: white;
+    font-weight: bold;
 }
 
 @font-face {
