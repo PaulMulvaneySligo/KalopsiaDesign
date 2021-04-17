@@ -37,11 +37,11 @@ nav ul li a
     text-decoration: underline;   
 }
 
-#frontPage
+.frontPage
 {
     height: 300px;
 }
-#frontPage p 
+.frontPage p 
 {
     margin-left: 310px;
 }
@@ -122,7 +122,7 @@ table td
     text-align: center;
 }
 
-#price
+.price
 {
     text-align: end;
     font-size: 1.2em; 
@@ -144,7 +144,7 @@ table td
     
 }
 
-#galleryTile
+.galleryTile
 {
     float: left;
     background-color: lightgray;
@@ -153,12 +153,12 @@ table td
     margin: 10px;
 }
 
-#galleryTile img
+.galleryTile img
 {
     margin: 10px;
 }
 
-#galleryTile p
+.galleryTile p
 {
     margin: 10px
 }
